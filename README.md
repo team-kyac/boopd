@@ -22,6 +22,14 @@
   </tr>
   <tr>
     <td>2. Run in your bash/command line
+    </td>
+  </tr>
+  <tr>
+    <td>3. Run  in your bash/command line</td>
+  </tr>
+</table>
+
+### Clone and install
     ```
     $ git clone https://github.com/team-kyac/boopd.git
     $ cd boopd
@@ -30,12 +38,6 @@
     $ rails db:create
     $ rails db:migrate
     ```
-    </td>
-  </tr>
-  <tr>
-    <td>3. Run  in your bash/command line</td>
-  </tr>
-</table>
  
 ### >Dependencies
 - React
