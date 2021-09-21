@@ -2,9 +2,7 @@
   <img width="100%" src="./img/logo.jpg"/>
 </p>
 
-```
 A full stack web application built with Ruby on Rails. This application uses a postgresql database and a Ruby on Rails back-end with a front-end using React.js created through the Rails asset pipeline. Created by Team KYAC at LEARN Academy.
-```
 
 We at **KYAC** Inc. have seen an increase of de-homed animals and struggling families during the pandemic. It is our vision to be part of the solution. 
 
