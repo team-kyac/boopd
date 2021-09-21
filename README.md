@@ -17,11 +17,20 @@
     <th>From the Repo</th>
   </tr>
   <tr>
-    <td rowspan="4"><a href="url">Live Version</a></td>
+    <td rowspan="4"><a href="https://floating-mesa-77996.herokuapp.com/">Live Version</a></td>
     <td>1. Clone this repo locally</td>
   </tr>
   <tr>
-    <td>2. Run in your bash/command line</td>
+    <td>2. Run in your bash/command line
+    ```
+    $ git clone https://github.com/team-kyac/boopd.git
+    $ cd boopd
+    $ bundle
+    $ yarn
+    $ rails db:create
+    $ rails db:migrate
+    ```
+    </td>
   </tr>
   <tr>
     <td>3. Run  in your bash/command line</td>
