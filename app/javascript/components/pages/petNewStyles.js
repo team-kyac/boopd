@@ -7,7 +7,7 @@ export const petNewStyles = () => ({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingTop: '150px',
+    paddingTop: '75px',
 
 
   },
@@ -81,26 +81,32 @@ export const petNewStyles = () => ({
     width: '400px',
     marginRight: '25px',
   },
+
   textInputAge: {
     width: '100px',
     marginRight: '25px',
   },
+
   textInputCity: {
     width: '400px',
     marginRight: '25px',
   },
+
   textInputState: {
     width: '125px',
 
   },
+
   textInputSpecies: {
     width: '400px',
     marginRight: '25px',
   },
+
   textInputBreed: {
     width: '400px',
     marginRight: '25px',
   },
+
   textInputBehavior: {
     width: '250px',
   },
@@ -108,6 +114,12 @@ export const petNewStyles = () => ({
   textInputMedical: {
     width: '700px',
     marginRight: '25px',
+    marginLeft: '25px',
+  },
+
+  textInputDescription: {
+    width: '1000px',
+    paddingBottom: '25px',
     marginLeft: '25px',
   },
   

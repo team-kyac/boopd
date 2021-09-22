@@ -59,7 +59,7 @@ const PetShow = ({match, pets, history, readPet, currentUser}) => {
   }
 
   return(
-    <Grid>
+    <Grid className="gridContainer">
       {pet && (
         <>
           <Grid>
@@ -89,12 +89,12 @@ const PetShow = ({match, pets, history, readPet, currentUser}) => {
               <FormLabel>Lived With Children</FormLabel>
               <Checkbox disabled checked={livedWithChildren}/>
             </FormGroup>
-            <Typography>Description: </Typography>
-            <Typography>{pet.description}</Typography>
+            <Typography className="descriptionShow">Description: </Typography>
+            <Typography className="descriptionShow">{pet.description}</Typography>
             <Grid>
-              <Accordion>
+              <Accordion className="accordion">
                 <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
-                  <Typography>Medical History </Typography>
+                  <Typography className="descriptionShow">Medical History </Typography>
                 </AccordionSummary>
                   {pet.medical && pet.medical.map((issue, index) => {
                     return(
@@ -120,16 +120,16 @@ const PetShow = ({match, pets, history, readPet, currentUser}) => {
             )}
           </Grid>
           <Grid>
-            <Button onClick={() => history.push('/index')}>Back</Button>
+            <Button className="showButton" onClick={() => history.push('/index')}>Back</Button>
             {pet.available == true && <Button>Adopt Me!</Button>}
           </Grid>
           <Grid>
             {pet.user_id === currentUser.id && (
             <>
-              <Button onClick={() => history.push(`/petedit/${match.params.id}`)}>
+              <Button className="showButton" onClick={() => history.push(`/petedit/${match.params.id}`)}>
                 Edit this pet
               </Button>
-              <Button onClick={() => deletePet(pet.id)}>
+              <Button className="showButton" onClick={() => deletePet(pet.id)}>
                 Delete Pet
               </Button>
             </>
