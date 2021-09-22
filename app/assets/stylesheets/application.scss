@@ -106,9 +106,9 @@ padding: 0;
   }
 
   h3 {
-    padding-top: 25px;
-    width: 60vw;
-    font-family: 'Rokkitt', serif;
+    padding-top: 25px !important;
+    width: 60vw !important;
+    font-family: 'Rokkitt', serif !important;
   }
  }
 
@@ -303,6 +303,14 @@ padding: 0;
     }
   }
 }
+}
+.header {
+  padding-bottom: 40px;
+  width: 60vw !important;
+  font-family: 'Rokkitt', serif !important;
+  text-align: center;
+  font-size: 36px;
+  color: #117a8c;
 }
 
 

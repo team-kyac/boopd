@@ -108,7 +108,7 @@ class PetNew extends React.Component {
       <>
       <div>
         <Grid className={classes.gridContainer}>
-          <h3>Create your listing!</h3>
+          <h3 className="header">Create your listing!</h3>
           <FormControl className={classes.form}>
             <Grid>
               <Grid className={classes.formRowOne}>
@@ -274,12 +274,13 @@ class PetNew extends React.Component {
               <Grid>
                 <FormLabel>Description</FormLabel>
                 <TextField
+                  className={classes.textInputDescription}
                   aria-label="Description"
                   variant="outlined"
                   name="description"
                   onChange={this.handleChange}
                   multiline
-                  rows={4}
+                  rows={2}
                 />
               </Grid>
               <Grid className={classes.formRowSix}>
